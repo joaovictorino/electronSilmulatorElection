@@ -1,19 +1,19 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld/>
+      <CalculateElection/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import CalculateElection from './pages/CalculateElection';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    CalculateElection,
   },
 
   data: () => ({
