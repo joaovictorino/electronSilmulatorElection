@@ -1,7 +1,6 @@
 {
   "name": "simulator-election",
   "version": "0.1.0",
-  "type": "module",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -12,7 +11,7 @@
     "postinstall": "electron-builder install-app-deps",
     "postuninstall": "electron-builder install-app-deps"
   },
-  "main": "./src/background.js",
+  "main": "background.js",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
